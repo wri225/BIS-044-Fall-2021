@@ -2,6 +2,11 @@
 # Alternate R script to accompany Intro to R for Business, #
 # Chapter 09, written by Troy Adair                        #
 ############################################################
+# Clear out Console and Enviroment
+rm(list=ls(all=TRUE))
+cat("\014")
+
+# Load the tidyverse
 library(tidyverse)
 
 # Load the previously referenced data frame in "YT_Sample_Validated.RData"
